@@ -11,9 +11,13 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:contentDescription="Menu de navegação"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/menmu_top_bar"
+            app:navigationIcon="@drawable/baseline_menu_" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
